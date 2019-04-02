@@ -4,7 +4,7 @@ body {
 
 .parent {
   display: flex;
-  height: 100vh; /* Or whatever */
+  height: 90vh; /* Or whatever */
   width: 100vw;
   flex-flow: wrap;
 }
@@ -19,4 +19,13 @@ img {
   padding: 0;
   flex-wrap: wrap;
   background-color: grey;
+}
+.navbar-brand {
+  font-size: 3em;
+}
+.navbar-nav {
+  margin-top: 24px;
+}
+.nav-link {
+  font-size: 1.2em;
 }
