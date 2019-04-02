@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  height: 100vh; /* Or whatever */
+  width: 100vw;
+  flex-flow: wrap;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.child {
+  width: 50%;
+  height: 50vh; /* Or whatever */
+  margin: 0;  /* Magic! */
+  padding: 0;
+  flex-wrap: wrap;
+  background-color: grey;
+}
