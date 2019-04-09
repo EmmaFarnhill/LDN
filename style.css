@@ -4,7 +4,9 @@ body {
 
 .parent {
   display: flex;
-  height: 90vh; /* Or whatever */
+  position: absolute;
+  top: 98px;
+  bottom:0;
   width: 100vw;
   flex-flow: wrap;
 }
@@ -14,7 +16,7 @@ img {
 }
 .child {
   width: 50%;
-  height: 50vh; /* Or whatever */
+  height: 50%; /* Or whatever */
   margin: 0;  /* Magic! */
   padding: 0;
   flex-wrap: wrap;
